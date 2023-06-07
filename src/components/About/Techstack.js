@@ -18,6 +18,7 @@ import {
   SiPostgresql,
   SiExpress,
   TbBrandBootstrap,
+  SiFigma,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -61,7 +62,7 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
